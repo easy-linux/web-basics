@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple HTML page with CSS</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f0f0f0;
+        }
+        h1 {
+          color: darkblue;
+        }
+        h2 {
+          color: darkgreen;
+        }
+        h3 {
+          color: darkred;
+        }
+        p {
+          font-size: 1em;
+          color: #333;
+        }
+        a {
+          color: #0066cc;
+        }
+        img {
+          display: block;
+          margin: 20px auto;
+          animation: rotation 5s infinite linear;
+        }
+        video {
+          width: 100%;
+          max-width: 600px;
+          display: block;
+          margin: 20px auto;
+          border-radius: 20px;
+        }
+        ul {
+          list-style-type: circle;
+          padding: 0 0 0 40px;
+        }
+        form {
+          width: 100%;
+          max-width: 300px;
+          margin: 20px auto;
+        }
+        label {
+          font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"] {
+          width: 100%;
+          padding: 10px;
+          margin: 10px 0;
+        }
+        input[type="submit"] {
+          background-color: darkblue;
+          color: #fff;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+        }
+        input[type="submit"]:hover {
+          background-color: darkgreen;
+        }
+  
+        @keyframes rotation {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(359deg);
+          }
+        }
+      </style>
+  </head>
+  <body>
+    <h1>Страница с CSS</h1>
+    <h2>Заголовок второго уровня</h2>
+    <h3>Заголовок третьего уровня</h3>
+
+    <p>Это пример параграфа со <a href="/page-css-js.html">ссылкой на HTML+CSS+JS</a>.</p>
+
+    <img src="/image.jpg" width="100px" alt="Пример изображения" />
+
+    <video controls>
+      <source src="mov_bbb.mp4" type="video/mp4" />
+      Ваш браузер не поддерживает HTML5 видео.
+    </video>
+
+    <ul>
+      <li>Первый элемент списка</li>
+      <li>Второй элемент списка</li>
+      <li>Третий элемент списка</li>
+    </ul>
+
+    <form action="https://jsonplaceholder.typicode.com/users" method="post">
+      <label for="name">Имя:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br />
+      <input type="submit" value="Отправить" />
+    </form>
+  </body>
+</html>
