@@ -1,7 +1,8 @@
 # Основы архитектуры WEB на простых примерах
 
 Видео первой части
-https://youtu.be/GFzpnghJ-jc
+
+[![Видео здесь](https://img.youtube.com/vi/GFzpnghJ-jc/0.jpg)](https://www.youtube.com/watch?v=GFzpnghJ-jc)
 
 ## Хранение данных на сервере
 ## Запросы по протоколу HTTP с помощью telnet
