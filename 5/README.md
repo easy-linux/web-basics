@@ -4,11 +4,12 @@
 
 ## Видео с пояснениями к данному коду находится здесь:
 
-[![Видео здесь](https://img.youtube.com/vi/EMi8tse12aE/0.jpg)](https://www.youtube.com/watch?v=EMi8tse12aE)
+
 
 ## Остальные части:
 [![Видео здесь](https://img.youtube.com/vi/nf5diHxQ3QU/0.jpg)](https://www.youtube.com/watch?v=nf5diHxQ3QU)
 [![Видео здесь](https://img.youtube.com/vi/3FJIF0-wKxQ/0.jpg)](https://www.youtube.com/watch?v=3FJIF0-wKxQ)
+[![Видео здесь](https://img.youtube.com/vi/EMi8tse12aE/0.jpg)](https://www.youtube.com/watch?v=EMi8tse12aE)
 
 ## Еще по vitejs
 
